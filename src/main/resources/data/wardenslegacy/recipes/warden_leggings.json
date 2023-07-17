@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": {
+        "item": "minecraft:netherite_leggings"
+    },
+    "addition": {
+        "item": "wardenslegacy:creature_shard"
+    },
+    "result": {
+        "item": "wardenslegacy:warden_leggings"
+    },
+    "template": {
+        "item": "wardenslegacy:sculk_upgrade_smithing_template"
+      }
+}

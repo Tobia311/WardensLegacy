@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#U#",
+        "#S#",
+        "###"
+    ],
+    "key": {
+        "U": {
+            "item": "wardenslegacy:sculk_upgrade_smithing_template"
+        },
+        "S": {
+            "item": "minecraft:sculk_shrieker"
+        },
+        "#": {
+            "item": "wardenslegacy:creature_shard"
+        }
+    },
+    "result": {
+        "item": "wardenslegacy:sculk_upgrade_smithing_template",
+        "count": 2
+    }
+}

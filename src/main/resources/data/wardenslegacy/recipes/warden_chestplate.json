@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "addition": {
+        "item": "wardenslegacy:wardens_heart"
+    },
+    "base": {
+        "item": "minecraft:netherite_chestplate"
+    },
+    "result": {
+        "item": "wardenslegacy:warden_chestplate"
+    },
+    "template": {
+        "item": "wardenslegacy:sculk_upgrade_smithing_template"
+      }
+}
