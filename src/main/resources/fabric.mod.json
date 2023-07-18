@@ -1,20 +1,25 @@
 {
 	"schemaVersion": 1,
 	"id": "wardenslegacy",
-	"version": "0.1.0",
+	"version": "${version}",
 	"name": "Warden's Legacy",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "An Ancient City and Deep Dark expansion Mod",
 	"authors": [
-		"Me!"
+		"Tobia (Dev)",
+		"IchigoKotetsu (Art)",
+		"Durandoe (Art)"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://legacy.curseforge.com/minecraft/mc-mods/wardens-legacy",
+		"sources": "https://github.com/Tobia311/WardensLegacy"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/wardenslegacy/icon.png",
 	"environment": "*",
 	"entrypoints": {
+		"fabric-datagen": [
+			"tobia.wardenslegacy.DataGeneration"
+		],
 		"main": [
           "tobia.wardenslegacy.WardensLegacy"
 		],

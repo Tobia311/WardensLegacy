@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "has_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wardenslegacy:sculk_upgrade_smithing_template"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_template"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wardenslegacy:sculk_upgrade_smithing_template"
+    ]
+  },
+  "sends_telemetry_event": true
+}

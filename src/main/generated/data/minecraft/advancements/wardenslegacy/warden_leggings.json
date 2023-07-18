@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "has_creature_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wardenslegacy:creature_shard"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_creature_shard"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wardenslegacy:warden_leggings"
+    ]
+  },
+  "sends_telemetry_event": true
+}
