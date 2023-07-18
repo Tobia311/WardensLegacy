@@ -1,13 +1,12 @@
 package tobia.wardenslegacy;
 
-import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 
-public class WardenMaterial implements ArmorMaterial {
+public class ModMaterial implements ArmorMaterial {
     private static final int[] BASE_DURABILITY = new int[] {13, 15, 16, 11};
     private static final int[] PROTECTION_VALUES = new int[] {4, 7, 12, 4};
 
@@ -33,7 +32,7 @@ public class WardenMaterial implements ArmorMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(WardenItems.CREATURE_SHARD);
+        return Ingredient.ofItems(ModItems.CREATURE_SHARD);
     }
 
     @Override

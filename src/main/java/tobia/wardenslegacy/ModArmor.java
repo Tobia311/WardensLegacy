@@ -1,16 +1,13 @@
 package tobia.wardenslegacy;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-import static tobia.wardenslegacy.WardenItems.ANCIENT_FOSSIL;
-
-public class WardenArmor {
-    public static final ArmorMaterial WARDEN_MATERIAL = new WardenMaterial();
+public class ModArmor {
+    public static final ArmorMaterial WARDEN_MATERIAL = new ModMaterial();
     public static final Item WARDEN_HELMET = new ArmorItem(WARDEN_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings());
     public static final Item WARDEN_CHESTPLATE = new ArmorItem(WARDEN_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings());
     public static final Item WARDEN_LEGGINGS = new ArmorItem(WARDEN_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings());

@@ -19,7 +19,7 @@ public class WardensLegacy implements ModInitializer {
 
 		LOGGER.info("Hello Fabric world!");
 
-		WardenItems.init();
-		WardenArmor.init();
+		ModItems.init();
+		ModArmor.init();
 	}
 }
