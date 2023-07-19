@@ -2,6 +2,9 @@ package tobia.wardenslegacy;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.player.PlayerInventory;
+import net.minecraft.server.network.ServerPlayerEntity;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,9 +16,7 @@ public class WardensLegacy implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
+		//todo: add warden armor attack
 
 		LOGGER.info("Hello Fabric world!");
 
